@@ -1,3 +1,7 @@
+# Docker
+
+Docker is a computer program that performs operating-system-level virtualization, also known as "containerization".[6] It was first released in 2013 and is developed by Docker, Inc
+
 # docker installation
 
 sudo apt-get remove docker docker-engine docker.io
@@ -14,7 +18,9 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 
 sudo apt-get update
 
-sudo apt-get install docker-ce
+sudo apt install docker.io
+
+docker --version
 
 sudo docker run hello-world
 
